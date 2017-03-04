@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sport_club xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:noNamespaceSchemaLocation="fitness_coach.xsd">
+	
+	
+	<program pid="P100">
+	<name>Chest</name>
+	<timetable>
+	
+			<performance>
+			<weekday> Wednesday </weekday>
+			<period> 9:00 - 10:00 </period>
+			<room_id> R100 </room_id>
+			<coach_id> C100 </coach_id>
+			</performance>
+		
+			<performance>
+			<weekday> Monday </weekday>
+			<period> 12:00 - 14:00 </period>
+			<room_id> R200 </room_id>
+			<coach_id> C200	</coach_id>		
+			</performance>
+			
+			<performance>
+			<weekday> Tuesday </weekday>
+			<period> 8:00 - 10:00 </period>
+			<room_id> R100 </room_id>
+			<coach_id> C100 </coach_id>			
+			</performance>		
+				
+	</timetable>
+	</program>
+
+	<program pid="P200">
+	<name>Abdominal</name>
+	<timetable>
+	
+		
+			<performance>
+			<weekday> Tuesday </weekday>
+			<period> 9:00 - 11:00 </period>
+			<room_id> R300 </room_id>
+			<coach_id> C200 </coach_id>
+			</performance>
+			
+			<performance>
+			<weekday> Wednesday	</weekday>
+			<period> 8:00 - 11:00 </period>
+			<room_id> R400 </room_id>
+			<coach_id> C300 </coach_id>			
+			</performance>
+			
+			<performance>
+			<weekday> Friday </weekday>
+			<period> 13:00 - 14:00 </period>
+			<room_id> R300 </room_id>
+			<coach_id> C200 </coach_id>			
+			</performance>		
+		
+		
+	</timetable>
+	</program>
+	
+	<program pid="P300">
+	<name>Hamstring</name>
+	<timetable>
+	
+		
+			<performance>
+			<weekday> Monday </weekday>
+			<period> 9:00 - 11:30 </period>
+			<room_id> R400 </room_id>
+			<coach_id> C300 </coach_id>
+			</performance>
+		
+			<performance>
+			<weekday> Friday </weekday>
+			<period> 9:30 - 11:00 </period>
+			<room_id> R300 </room_id>
+			<coach_id> C100 </coach_id>			
+			</performance>
+			
+			<performance>
+			<weekday> Thursday </weekday>
+			<period> 8:00 - 10:30 </period>
+			<room_id> R400 </room_id>
+			<coach_id> C300 </coach_id>			
+			</performance>		
+		
+		
+	</timetable>
+	</program>
+	
+	<program pid="P400">
+	<name>Buttock</name>
+	<timetable>
+	
+		
+			<performance>
+			<weekday> Thursday </weekday>
+			<period> 10:00 - 11:30 </period>
+			<room_id> R300 </room_id>
+			<coach_id> C100 </coach_id>
+			</performance>
+		
+			
+	</timetable>
+	</program>
+	
+	<program pid="P500">
+	<name>Lower Body</name>
+	<timetable>
+	
+		
+			<performance>
+			<weekday> Friday </weekday>
+			<period> 9:00 - 13:30 </period>
+			<room_id> R300 </room_id>
+			<coach_id> C300 </coach_id>
+			</performance>
+					
+			<performance>
+			<weekday> Wednesday </weekday>
+			<period> 8:40 - 11:30 </period>
+			<room_id> R200 </room_id>
+			<coach_id> C300 </coach_id>			
+			</performance>		
+
+		
+	</timetable>
+	</program>
+	
+
+
+	<coach cid="C100">
+	<firstname> John </firstname>
+	<lastname> Snow </lastname>
+	<phone>	070456234 </phone>
+	<address>
+		
+		<street>Sunny Street 8</street>
+		
+		<postal_code>65200</postal_code>
+		
+		<city>Vaasa</city>
+		
+		<country>Finland</country>
+		
+	</address>
+	</coach>
+	
+	<coach cid="C200">
+	<firstname>	Daniel </firstname>
+	<lastname>	Emma </lastname>
+	<phone>	01234567 </phone>
+	<address>
+		
+		<street>Beach Street 6</street>
+		
+		<postal_code>65100</postal_code>
+		
+		<city>Stockholm</city>
+		
+		<country>Sweden</country>
+		
+	</address>
+
+	</coach>
+	
+	<coach cid="C300">
+	<firstname> Laura </firstname>
+	<lastname> David </lastname>
+	<phone> 080237365 </phone>
+	<address>
+		
+		<street>City Street 6</street>
+		
+		<postal_code>65200</postal_code>
+		
+		<city>New York</city>
+		
+		<country>USA</country>
+		
+	</address>
+
+	</coach>
+	
+
+
+</sport_club>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
