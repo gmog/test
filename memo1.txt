@@ -1,0 +1,1 @@
+This is memo1.txt. In this file we go through how to add a new file to the repository.
