@@ -10,15 +10,16 @@ xsi:noNamespaceSchemaLocation="fitness_coach.xsd">
 	<timetable>
 	
 			<performance>
-			<weekday> Wednesday </weekday>
-			<period> 9:00 - 10:00 </period>
+			<weekday> Thursday </weekday>
+			<period> 19:00 - 20:00 </period>
 			<room_id> R100 </room_id>
 			<coach_id> C100 </coach_id>
 			</performance>
 		
-			<performance>
-			<weekday> Monday </weekday>
-			<period> 12:00 - 14:00 </period>
+									
+<performance>			
+<weekday> Monday </weekday>			
+<period> 12:00 - 14:00 </period>
 			<room_id> R200 </room_id>
 			<coach_id> C200	</coach_id>		
 			</performance>
@@ -36,7 +37,6 @@ xsi:noNamespaceSchemaLocation="fitness_coach.xsd">
 	<program pid="P200">
 	<name>Abdominal</name>
 	<timetable>
-	
 		
 			<performance>
 			<weekday> Tuesday </weekday>
